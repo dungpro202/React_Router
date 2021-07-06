@@ -40,6 +40,9 @@ function Products(props) {
     );
   });
 
+  var{location}=props;
+  console.log(location);
+
 
   return (
     <div className="container">
